@@ -1,4 +1,5 @@
-# 🪨 Rock Paper Scissors! <br><br>
+# 🪨 Rock Paper Scissors!
+
 This is my first javascript project with the help of The Odin Project. <br><br>
 
 Live at: https://jveztraaaa.github.io/odin-rps/ 
