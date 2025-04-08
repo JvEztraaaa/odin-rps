@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,43 +18,31 @@
       <h1>Rock Paper Scissors</h1>
     </div>
 
-    <div class="score">0 - 0</div>
-    <div id="score-desc">You won! Rock beats Scissors</div>
+    <div class="score">Human: 0 | Computer: 0</div>
+    <div id="score-desc">Select your fate!</div>
 
     <div class="choices">
       <div class="choice-desc">
-        <button onclick="choice()">
+        <button id="rock">
           <img class="image-choice" src="images/rock.png" alt="Rock" />
         </button>
         <div>Rock</div>
       </div>
 
       <div class="choice-desc">
-        <button onclick="choice()">
+        <button id="paper">
           <img class="image-choice" src="images/paper.png" alt="Paper" />
         </button>
         <div>Paper</div>
       </div>
 
       <div class="choice-desc">
-        <button onclick="choice()">
+        <button id="scissors">
           <img class="image-choice" src="images/scissors.png" alt="Scissors" />
         </button>
         <div>Scissors</div>
       </div>
     </div>
-
-    <table>
-      <tr>
-        <th>Player</th>
-        <th>Computer</th>
-      </tr>
-      <tr>
-        <td>Rock</td>
-        <td>Rock</td>
-      </tr>
-    </table>
-
     <script src="script.js"></script>
   </body>
 </html>
