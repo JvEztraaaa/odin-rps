@@ -1,0 +1,89 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.main-header {
+  font-family: "Pixelify Sans", sans-serif;
+  color: #fee715;
+  font-size: 24px;
+  margin: 0;
+  padding: 25px 200px;
+  background-color: #101820;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #36454f;
+  width: auto;
+  color: white;
+}
+
+.score {
+  font-size: 30px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#score-desc {
+  font-size: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 70px 100px 20px 100px;
+  cursor: pointer;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.choice-desc {
+  font-family: "Pixelify Sans", sans-serif;
+  color: #fee715;
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-choice {
+  width: 300px;
+  height: 300px;
+}
+
+img:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+  transition: 0.2s ease;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+  text-align: center;
+}
